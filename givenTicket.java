@@ -1,27 +1,24 @@
-
-
-
-
 public class givenTicket{
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 	
-	int speed = 65;
-	boolean birthday = true;
-	
-	if(birthday){
-		speed = speed - 5;
-	}
-	
-	if(speed < 60) {
-		System.out.print(0);
-	} else if (speed > 61 && speed <= 80 ){
-		System.out.print(1);
+		int speed = 89;
+		boolean birthday = true;
+		if(birthday) {
+			speed = speed - 5;
 		}
+		
+		
+		if(speed <= 60) {
+			System.out.println("0");
+		}else if(speed > 61 && speed <= 80){
+			System.out.println("1");
+		}else {
+			System.out.println("2");
+		}
+		
+		
 	}
 }
-	
-
-	
 
 
 
